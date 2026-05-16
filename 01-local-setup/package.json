@@ -1,0 +1,18 @@
+{
+  "name": "local-setup",
+  "version": "1.0.0",
+  "description": "this is a node projects whose purpose is to learn redis setup locally",
+  "license": "ISC",
+  "author": "siddharth khubikar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "mongoose": "^8.24.0",
+    "nodemon": "^3.1.14"
+  }
+}
