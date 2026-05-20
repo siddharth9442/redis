@@ -1,0 +1,17 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "siddharth khubikar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.76.10",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1"
+  }
+}
